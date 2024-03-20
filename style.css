@@ -1,0 +1,134 @@
+/** General **/
+
+* {
+    outline: 1px solid;
+}
+ 
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
+/** Sidebar, left side **/
+
+
+.sidebar {
+    padding: 1rem;
+}
+
+.sidebar-title {
+    
+}
+
+.sidebar-block {
+    margin: 2rem 0 2rem 0;
+}
+
+
+.nav-item {
+    margin: 1rem 0 1rem 0;
+}
+
+/** Main Content, right side **/
+
+.right-side {
+    display: grid;
+    grid-template-rows: 120px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-content {
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 20px
+}
+
+/** Header, right side **/
+
+
+.searchbar {
+
+}
+
+.profile-bar-small {
+
+}
+
+.profile-bar-big {
+
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.button {
+
+}
+
+/** Projects, right side **/
+
+.projects {
+    
+   
+    grid-row-start: 1;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px
+}
+
+.card {
+    height: 150px;
+    
+}
+
+/** Announcement, right side **/
+
+.announcements {
+   
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ann-item {
+
+}
+
+/** Trending, right side **/
+
+.trending {
+    
+    grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.trend-item {
+
+}
+
+
+
+
+
