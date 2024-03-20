@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -10,25 +11,26 @@
     <main>
         
         <div class="sidebar">
-            <div class="sidebar-title"><i></i>Dashboard</div>
-            <div class="sidebar-block">
-                <div class="nav-item"><i></i>Home</div>
-                <div class="nav-item"><i></i>Profile</div>
-                <div class="nav-item"><i></i>Messages</div>
-                <div class="nav-item"><i></i>History</div>
-                <div class="nav-item"><i></i>Tasks</div>
-                <div class="nav-item"><i></i>Communities</div>
-            </div>
-            <div class="sidebar-block">
-                <div class="nav-item"><i></i>Settings</div>
-                <div class="nav-item"><i></i>Support</div>
-                <div class="nav-item"><i></i>Privacy</div>
-            </div>
+            <ul class="sidebar-block"><li class="sidebar-title"><img src="assets/view-dashboard.svg"> Dashboard</li>
+            </ul>
+            <ul class="sidebar-block">
+                <li class="nav-item"><img src="assets/home.svg"  > Home</li>
+                <li class="nav-item"><img src="assets/card-account-details-outline.svg"  > Profile</li>
+                <li class="nav-item"><img src="assets/message-reply.svg"  > Messages</li>
+                <li class="nav-item"><img src="assets/clock-time-three.svg"  > History</li>
+                <li class="nav-item"><img src="assets/note-multiple.svg"  > Tasks</li>
+                <li class="nav-item"><img src="assets/account-group.svg"  > Communities</li>
+            </ul>
+            <ul class="sidebar-block">
+                <li class="nav-item"><img src="assets/cog.svg"  > Settings</li>
+                <li class="nav-item"><img src="assets/help-box.svg"  > Support</li>
+                <li class="nav-item"><img src="assets/share-variant-outline.svg"  > Privacy</li>
+            </ul>
         </div>
         <div class="right-side">
             <div class="header">
                 <div class="searchbar">
-                    Searchbar
+                    <img src="assets/magnify.svg"><input class="search" type="text">
                 </div>
                 <div class="profile-bar-small">
                     <span><i>Alarm Icon</i></span>
@@ -40,9 +42,9 @@
                     <div>Hi there,<br>Morgan Oakley (@morgan)</div>
                 </div>
                 <div class="actions">
-                    <div class="button">New</div>
-                    <div class="button">Upload</div>
-                    <div class="button">Share</div>
+                    <button type="submit">New</button>
+                    <button type="submit">Upload</button>
+                    <button type="submit">Share</button>
                 </div>
             
             </div>
@@ -77,5 +79,7 @@
         </div>
         
     </main>
+
+
 </body>
 </html>
